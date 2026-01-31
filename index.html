@@ -1,175 +1,68 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مصعب تكنولوجي</title>
+  <style>
+  
     
-    
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مصعب تكنولوجي</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <style>
-        body {
-            background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=20rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-            background-size: cover;
-            background-position: center;
-            animation: background-animation 10s infinite;
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: center;
+      background: #f0f0f0;
         }
-        @keyframes background-animation {
-            0% {
-                background-position: 0% 0%;
-            }
-            50% {
-                background-position: 100% 100%;
-            }
-            100% {
-                background-position: 0% 0%;
-            }
-        }
-        .book {
-            background-image: url('https://example.com/book-background.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .book-title {
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .social-icons {
-            font-size: 24px;
-            margin-right: 10px;
-        }
-    </style>
+      header {
+  background-image: url('1769893605527.jpg');
+  background-size: cover;
+      background-position: center;
+      opacity: .;
+    }
+     
+    }
+    .images {
+      margin: 2em auto;
+    }
+    .images img {
+      width: 200px;
+      height: 150px;
+      margin: 1em;
+      cursor: pointer;
+      border: 2px solid #ddd;
+    }
+ 
+  </style>
+   
 </head>
+<body style="background-image: url('c4fd9e4386184237e8dfff326523a2fb.jpg'); background-size: cover; background background: center; background-size: cover;">
 
 
-<h2 id="animated-text"></h2>
-    <script>
-        const text = document.getElementById('animated-text');
-        text.style.animation = 'text-animation 2s infinite';
-        text.style.webkitAnimation = 'text-animation 2s infinite';
 
-        const style = document.createElement('style');
-        style.innerHTML = `
-            @keyframes text-animation {
-                0% {
-                    transform: translateX(0);
-                }
-                50% {
-                    transform: translateX(10px);
-                }
-                100% {
-                    transform: translateX(0);
-                }
-            }
-        `;
-        document.head.appendChild(style);
-    </script>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">مصعب تكنولوجي</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">الدروس</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">الكورسات المجانية</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">كورسات تعلم الأمن السيبراني</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="container mt-5">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="book">
-                        <h2 class="book-title">كورس تعلم البرمجة</h2>
-              
-                        <p>تحزير هازا الموقع للاقراض اتعلميه فقط لا قير غير مساؤل عن سوا الاستخدام</p>
-                        <p>عن طريق استخدام الطروق اتعلميه في شن هجوم الاكتروني او مخالغه قانونيه</p>
-                        <p>هذا كورس تعلم البرمجة يغطي أساسيات البرمجة ويقدم دروس مفصلة على شكل كتب.</p>
-                        <p>وتعلم اساسيات الشبكات و تفادي الهجوم السبراني وتعلم الفيشنف او الهندسه الاجتماعيه</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container mt-5">
-            <h2>تسجيل في الموقع</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="username" class="form-label">اسم المستخدم</label>
-                    <input type="text" class="form-control" id="username">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">البريد الإلكتروني</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="mb-3">
-                    <label for="password" class="form-label">كلمة المرور</label>
-                    <input type="password" class="form-control" id="password">
-                </div>
-                <a href="test.html">تسجيل</a>
-               
-           </form>
-           
-        </section>
-    </main>
-    <footer class="bg-dark text-white mt-5">
-        <div class="container py-4">
-            <div class="row">
-                    <div class="col-md-4">
-    
-                        <div class="col-md-4">
 
-<div class="col-md-4">
-    <h5>روابط التواصل</h5>
-    <ul class="list-unstyled">
-    
-        <li><a href="https://www.instagram.com" class="text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="إنستجرام" class="social-icons" width="24" height="24"></a></li>
-        <li><a href="https://wa.me/1234567890" class="text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/768px-WhatsApp.svg.png" alt="واتساب" class="social-icons" width="24" height="24"></a></li>
-        <li><a href="https://t.me/username" class="text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" alt="ترجرام" class="social-icons" width="24" height="24"></a></li>
-    </ul>
-</div>
-                        
-                <div class="col-md-4">
-                    <h5>كورسات</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">كورس تعلم البرمجة</a></li>
-                        <li><a href="#" class="text-white">كورس تعلم الأمن السيبراني</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>تواصل معا المشرف :مصعب بشير (تكنولوجي)</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="msabbshir12@giml.com" class="text-white">البريد الإلكتروني</a></li>
-                        <li><a href="0905506407" class="text-white">الهاتف0905506407</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <header>
+    <h1 style="color:#ffff00">مصعب تكنولوجي</h1>
+    <p style="color:#ffff00">مرحباً بكم في موقعي المطواضع لكم كل الحب اخوتي</p>
+    <p style="color:blue">تم حظر الموقع الاول بسبب الفيديوهات لان التوضيح دقيق</p>
+    <p style="color:blue">استمتعو بي الكتوب الاكترونيه لمن نشوف حل لي الفيديوهات</p>
+    <p style="color:blue">نعمل بوت تلجرام او قرف دردشه خاصه حنرفع المزيد انشاء الله</p>
+    <p style="color:blue">اضقط عل الصورة والكتاب حينزل مباشر بي سرعه خيالية</p>
+  </header>
+  <main>
+    <div class="images">
+      <a href="Noor-Book.com  تعلم html.pdf" download>
+        <img src="0ff8ecea94fb2f8a0548c129988e7675.png.webp" alt="صورة 1">
+      </a>
+      <a href="book2.pdf" download>
+        <img src="a41db6bc02f1694c745d046bfaf7b366.png.webp" alt="صورة 2">
+      </a>
+      <a href="book3.pdf" download>
+        <img src="5d7b839ee68e7723977b9f4801193007.png.webp" alt="صورة 3">
+      </a>
+    </div>
+  </main>
+  
 </body>
 </html>
